@@ -23,4 +23,19 @@ Diferencial</br>
 * Laravel 8+;</br>
 * Teste Unitário;</br>
 * Abstração para suportar N entradas de estruturas diferentes que resultem na mesma saída;
+
+----
+Build project
+```shell
+docker compose up -d --build 
+```
+
+Run composer 
+```shell
+docker compose run --rm composer i
+```
+
+Url to test
+`http://localhost/api/v1/automacao`
    
+OBS.: Não consegui fazer da forma que gostaria no tempo que tentei.
